@@ -1,10 +1,16 @@
 Morning Session-- Intro to Functions
 turn off autosave
 # Opening Circle
-# random pairings again (I think tomorrow we can start with a whole group whip around rather than breakout rooms)
-#### Day03 - What your favorite question to ask someone you just met? #Give the prompt and let them think about it for a 1 minute
-# Have each student slack their answers to the #welcome channel after we all share out (build up a list)
-## Share the kokology question (queued up in Slack channel)
+## Show the agenda
+## Stretch and Share
+### Directions - Let's get ourselves ready to code by warming up our bodies with a stretch and share. We'll go around the group and each person will (1) share a stretch or keep a previous stretch going and (2) answer the prompt for the day.
+### If you could have a superpower, what would it be?
+## Discuss Microfeedback
+### People feeling more comfortable with coding with lots of enjoyables
+### People wanting more time to work on labs
+### And so many great ideas for digi-murals --- so stay tuned
+## Play a Game
+### https://garticphone.com/
 
 # Introducing Functions
 
@@ -21,7 +27,7 @@ turn off autosave
 def square_plus_one():
 
 ## So far, we've seen two types of python built-in functions
-argument.method_name() => return_value
+variable.method_name() => return_value
 function_name(argument) => return_value
 
 ## Chat storm: write as many example as you can of the first example. Repeat for the second example
@@ -34,7 +40,7 @@ def function_name(parameters, separated, by, commas):
     ## business_logic
     return return_value
 
-#Here's a functio we might define
+#Here's a function we might define
 def shout(name):
     name = name.upper()
     return f"Hello {name}!"
@@ -46,11 +52,11 @@ def shout(name):
 ## 4) What is the datatype of the return value?
 
 # Let's actually use this function
-shout("alberlis")
+shout("julia")
 
 ## let's put in an integer too and see the error, model by putting in slack channel
 
-#Chat waterfall: Type but don't send yet; what will print to the termina if we run this code?
+#Chat waterfall: Type but don't send yet; what will print to the terminal if we run this code?
 
 ## Functions with multiple arguments
 # Of course we can have multiple arguments/parameter in our custom functions
@@ -68,6 +74,10 @@ print(personalized_age_check("Zara", 14))
 
 
 ### BREAK FOR LAB HERE
-string theory -- git clone https://github.com/upperlinecode/string-theory-python-methods.git
 budget buddy -- git clone https://github.com/upperlinecode/budget-buddy-python-functions.git
+
+activity planner -- git clone https://github.com/upperlinecode/activity-planner-python-functions.git
+
+string theory -- git clone https://github.com/upperlinecode/string-theory-python-methods.git
+
 cookie monster -- git clone https://github.com/upperlinecode/cookie-monster-python-functions.git

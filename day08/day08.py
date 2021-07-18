@@ -3,6 +3,12 @@ Morning Session
 ## Morning Routine
 # Stretch and share....which app on your phone do you use the most?
 
+#Microfeedback 
+# Liking longer breakout room sessions 
+# We want to build more opportunities for longer breakout rooms and also for 1-in-1 or small group sessions 
+# The desire to go slower (maybe because we don't finish things?). You're not expected to have everything down when you first learn it, and you shouldn't expect things like a really well designed website to be easy (people have whole jobs doing this--it's definitely not easy!)
+# Name that we're not going to get as far or complete these little projects as much as you think we would, but that's okay. We will be working on lots of different tasks, which you won't finish, so that you get multiple attempts at things or multiple opportunities to try similar things 
+
 ## Let's try 1 word proverbs ---
 # I'll rename students to include a number in their name. Students each say one word added to the proverb going in order. When the proverb feels right, a student can say "ommmm" and we'll start over
  
@@ -20,7 +26,7 @@ Morning Session
 
 # There are many solutions to this problem, we will be using Flask with gets Python to on-the-fly create HTML pages and a web server to do all the communicating. Flask is a quick way to get a site started and is used by some big companies like Pinterest and AirBnB.
 
-# Today we will do a codealong to create a basic flask app and then we will have some time to extend another flask app. We'll finish up by deploying our apps to Heroku (I think time spent doing this right now will pay major dividends later in the course)
+# Today we will do a codealong to create a basic flask app and then we will have some time to extend another flask app.
 
 
 
@@ -31,12 +37,13 @@ sudo pip3 install flask
 touch ~/.customize_environment
 echo 'sudo pip3 install flask' >> ~/.customize_environment
 echo 'sudo pip3 install python-dotenv' >> ~/.customize_environment
+echo 'export FLASK_DEBUG=1' >> ~/.customize_environment
 
-# Finally, restart your environment using the "..." menu in the top right corner of the Cloud Shell window. When it asks you why you're doing this, select "want a clean VM state" as your reason. Your Cloud Shell will probably take about 2 minutes to restart.
+# Finally, restart your environment using the "..." menu in the top right corner of the Cloud Shell window. When it asks you why you're doing this, select "want a clean VM state" as your reason. Your Cloud Shell will probably take about 2 minutes to restart. While waiting for the restart we'll make a template of the flask project
 
 # Now we're ready to copy down the Flask Template we'll be using
 https://github.com/upperlinecode/flaskproject
-# And we'll use the template button to create your own copy. Once you've done that, we can copy our individual .git lines so we can clone to cloudshell. We'll do that inside of a folder called day08 in our FintechFocus2020 directory
+# And we'll use the template button to create your own copy. Once you've done that, we can copy our individual .git lines so we can clone to cloudshell. We'll do that inside of a folder called day08 in our FintechFocus2021 directory
 
 # Before examining the code here, let's make sure it will run. There's enough code in the file where we should be able to see it go. 
 flask run
@@ -44,7 +51,7 @@ flask run
 
 # Where in the code is this coming from? Let's dive in
 
-# Our Flask app is handling receiving requests from the user and sending back a response.
+# Our Flask app is handling receiving requests from the user and sending back a response. It is doing this from the app.py file
 
 # The first type of request we'll look at is a GET request. GET requests do exactly what you sound like. Your web browers makes a request of the server via the URL. The web server takes that URL and turns it into something to send back as a response.
 
@@ -83,19 +90,19 @@ def index():
 # To do that, we'll package up some information into a dictionary. Let's make a user and a title to pass to the index.html template
 
 data = {
-  'user':{'first_name':'Anoopa'},
+  'user':{'first_name':'Dominique'},
   'title':'Home'
 }
 
 # To get this data to the template,
 def index():
   data = {
-    'user':{'first_name':'Anoopa'},
-    'title':'Home'
+    'user':{'first_name':'Dominique',
+    'title':'Home'}
   }
   return render_template('index.html', data=data)
 
-#And to access it in the index.html, we need to do tthe following
+#And to access it in the index.html, we need to do the following
 <html>
     <head>
       <title>{{ data.title }} - Microblog</title>
@@ -105,10 +112,15 @@ def index():
     </body>
 </html>
 
-# The double curly braces is a fill inn tthte blank for render_template, sort of like a f-string we already know.
+# The double curly braces is a fill in the blank for render_template, sort of like a f-string we already know.
 
-##### Playtime: Adding a resultsPage.html with route that renders at least one piece of new information.
+##### Playtime: Adding a resultsPage.html with route that renders at least one piece of new information. You need to write a new HTML file and a new route.Pa
 
+
+### Go to 11am Break
+# Play a game -- Digimurals
+
+#Midmorning Session
 
 ####### Building out a form #######
 # Right now our web app can use data we've hard coded and can use it to dynamically generate HTML files. But in most web apps we get info from the user. One way to do that is with a form.
@@ -132,7 +144,7 @@ def handle_breakfast():
 
 # Let's try this form again....uh oh, a new error. Method not allowed. But if we reload the page, it appears!
 
-# Turns out this is because theer's another method your web browser can make a request of the web server. When the browser makes a request via by accessing a URL, that is a GET request. But through the form we can make a POST request. POST requests keep the information out of the URL  and is the preferred way to send information from a form to a web server.
+# Turns out this is because there's another method your web browser can make a request of the web server. When the browser makes a request via by accessing a URL, that is a GET request. But through the form we can make a POST request. POST requests keep the information out of the URL  and is the preferred way to send information from a form to a web server.
 
 # We need to update the route decorator to handle both GET and POST requests
 @app.route('/sendBreakfast', methods=['GET', 'POST'])
@@ -147,7 +159,7 @@ if request.method == 'GET':
 else:
   return "you're posting to the breakfast page"
 
-#Now how about that data...to access the data froom the form, we do request.form
+#Now how about that data...to access the data from the form, we do request.form
 # Let's add these two lines of code and see what we get
 form = request.form
 print(form)
@@ -198,15 +210,17 @@ return f"Hello, {loud_name}! I hear you had {breakfast} for breakfast"
 # Bonus points if the images are dependent upon what breakfast the user entered.
 # Add multiple templates and route to different ones depending on the user's answer.
 
+### Have students clone down the birthstones lab
+git clone https://github.com/upperlinecode/birthstone-lab-python-flask-mvc
 
-### Post break...
+### Lunch
 
-# If you want to dive in to a semi-structured lab of creating a birthstone lab
-# If you want to work through these steps with the instructors to create the birthstone lab
 
 
 ## Afternoon session
-# Continue to work on the birthstone lab to get it just where you want it. 
+# Option 1: work on the birthstone lab to get it just where you want it. 
+# Option 2: Work with Derek on the birthstone lab
+# Option 3: Try out a flask miniproject 
 
 
 # Copy down the flask template again and try out one of these other ideas.

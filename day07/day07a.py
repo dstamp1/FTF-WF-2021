@@ -4,37 +4,28 @@ Morning Session
 # Stretch and share....if you could make a website about anything, what would it be about?
 ## Share with students that websites aren't just about making money, they can be about important causes
 
+# Microfeedback 
+# People liked having the opportunity to choose what they wanted to work on in the afternoon based on their comfort level, and the chance to go over the lab with a teacher was really helpful 
+# Getting the chance to work with the teachers has been helpful 
+# Suggestion to pin important things in slack like julias document - #anchor-charts only has julias doc in there so if you want to see it, go there
+# More time for games 
+# Debugger is the current favorite game for many people in the class 
+# Working with people at different levels - we are going to continue to push you to work with people more/less experienced with you.
+
+## Show the agenda and then...
+
 ## Let's play debugger today!
 
-## Microfeedback
-### Great feedback about being able to choose their best path for the afternoon. Loved more open ended tasks. We will be doing that today, starting even sooner
-### Learning how to code is about more than accumulating knowledge and content skills. When you become a software developer, it is an expectation that you are able to learn from and teach others; whether its the ins and outs of yourr company's flagship program or a new language you've never heard of before. Being able to use empathy and improving your navigating skills will make you a much better programming and team player in the long run. Use this time to practice and improve!
 
 ## Today we're going to dive into HTML + CSS. By the end of today, we want to be able to understand how to place tags in an HTML file and how to style via classes and IDs. 
 ## While this might not be new to you, we want a strong foundation so we can learn how to use Bootstrap and, eventually, use Python to dynamically generate HTML.
 
-## We'll start off this morning identifying strengths and weaknesses of good web design. Then we'll bifurcate. 
-
-### If you want to take on the challenge of designing a webpage and figure it out yourself with documentation, you have a three hour hackathon today to arrive at a webpage yoou're proud of.
-### If you want to go at a more metered pace with more group work, checkpoints, and structured labs, you'll work with the larger group through lunch time and spend the hour after lunch designing 
+# What Makes for a great website?
 
 ### Take a few minutes to search the web for sites you find to be particular beautiful and ones that could use some design tweaks. We'll go into breakout rooms after 2 minutes so you can screenshare.
 
-
-### Now that we have a sense of what feels like good and not so good web design, let's collaborate on a document that encapsulates what we believe to be true about web design. Go to this google document and add 1-2 things you picked up from our conversations: https://docs.google.com/document/d/1z-4DmdBEltZO7kym3YJLXBog3cdvRGueASP_ga_sPs4/edit?usp=sharing
-
-## The last thing for us to do together is to log into glitch https://glitch.com/signin (use your GitHub account) to do your web design for today. Cloudshell is overkill and we'll be able to push our pages to GitHub & set them up with GitHub pages.
-# I have created a very basic template that you will click the "remix to edit" button: https://glitch.com/edit/#!/dstamp-html-template
-
-## Green check once you have your own copy of the basic HTML template.
-
-
-#Hopefully we're at the 25 minute mark or so..lol
-
-## PM Derek which path you'll be taking today
-### Hackathon style and create a beautiful website to showcase at 2:15pm. Guidlines and stretch additions available in slack https://docs.google.com/document/d/1RYC36O1jE_xqNeBhSizA8ut6dAzlJlT_ZVtBga659ns/edit?usp=sharing
-### Team style and work together on labs to create a beautiful website to showcase at 2:15pm
-
+### Now that we have a sense of what feels like good and not so good web design, let's collaborate on a document that encapsulates what we believe to be true about web design. Go to this google document and add 1-2 things you picked up from our conversations: 
+# https://docs.google.com/document/d/1HG5pcbepLaeMr7gvmGoFRlfzNTc-Ql3mzIZYEHpt5Jg/edit?usp=sharing
 
 ### Into to HTML ###
 #HTML is not a scripting language, it is a language that communicates structure and hierarchy within a document.
@@ -45,7 +36,7 @@ Morning Session
 
 ## Tags consist of abbreviations or short words and have an opening and closing version.
 
-#<tag> _content_ </tag>
+#<tag> _content_ </tag>rep
 
 # And a central premise of HTML tags is that they can be nested inside of one another. This relationship is known as a parent-child relationship.
 
@@ -53,8 +44,27 @@ Morning Session
   <p>Nested</p>
 </div>
 
+## Let's first make a template of a basic one page website https://github.com/dstamp1/html-website-template
 
-## First, let's practice nesting and placing image tags (you'll look up documentation on how to do this) in the Boroughs Nesting Lab. To copy it into glitch, we'll go to the glitch home page and copy the git link https://github.com/upperlinecode/NYC_Boroughs_Lab.git
+## In the html file, we have a few tags that are "required" --- modern web browsers are expecting them
+## The head and the body
+## The head has information about the website (metadata) and can include links to outside resources --- like a stylesheet (internal or external)
+## the body is where the content of the website goes. If you want it to show up on the webpage, it goes here
+
+## Let's take a look at one tag together -- adding an image
+# First, let's check out what w3 schools has on the topic
+## https://www.w3schools.com/tags/tag_img.asp
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+## src = a link to the image itself
+## alt = alternate text that shows if the image doesnt load -- also used by screen readers
+## width = a measure in pixels
+## height = a measure in pixles (both width and height are not required)
+## measurements can also be set with percentages
+
+## First, let's practice nesting and placing image tags (you'll look up documentation on how to do this) in the Boroughs Nesting Lab.  git clone https://github.com/upperlinecode/NYC_Boroughs_Lab.git
+
+## To view this page, we need to spin up a simple server
+## To do that, we'll run python3 -m http.server 8080 in the 
 
 ## 15 minutes of play time here ##
 ##################################################
@@ -68,7 +78,7 @@ Morning Session
 
 
 ### Class Selectors ####
-# So far we've had to style each id on it's own. Not too bad when there's 5. But imagine we had this site to style. Make a copy into glitch https://github.com/upperlinecode/css-classes-template.git
+# So far we've had to style each id on it's own. Not too bad when there's 5. But imagine we had this site to style. Make a copy into day07 folder git clone https://github.com/upperlinecode/css-classes-template.git
 
 # We can see there's some overlap here between paragraphs and some paragraphs share some features.
 # CSS gives us a way to style more than one element at a time with classes. We preface classes with a . in the CSS file. Let's write some css for these classes given to us.
@@ -78,6 +88,7 @@ Morning Session
 ### Bifurcation ###
 # This was our crash course in HTML + CSS!
 # You can start your mini-hackathon and begin constructing your website
+# https://docs.google.com/document/d/19-rxeMOdC0ifGrivk63kSknTM1dZXRqNzASxTDeuHJY/edit?usp=sharing
 
 ## There's also a few more activities we have if you want to focus in on HTML + CSS
 ## https://flukeout.github.io/

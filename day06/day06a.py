@@ -1,16 +1,35 @@
 Morning Session
 
 ## Morning Routine
+# Let's start today with a stretch and share
+## Opening question: If you could add one hour to your day; what would you do with it?
+## Students can change the stretch or keep it going
 
-## Breakout rooms of 4 students and have each group answer
-# If you could only eat one meal for the rest of your life, what would it be?
+# Microfeedback:
+## We got great feedback about the calculator projects --- liked working on one thing all day, liked working with the same person, and liked being able to review and apply concepts. 
+## We're looking to improve the balance of time in breakout rooms, time to work on labs, and time to play games! 
+## Today we'll be taking on a brand new topic within Python that might put you in your panic zone. Be mindful of that and know its part of the process. And when thinking about microfeedback you might give at the end of the day, try to be as specific and concrete as possible. The more you tell us the more info we have to make changes! 
 
-c
+### Agenda
+#  9:00 -  9:30 | Morning Routine 
+#  9:30 - 11:00 | Intro to Object Orientation
+# 11:00 - 11:30 | Bio Break
+# 11:30 - 12:30 | Object Orientation Continued
+# 12:30 -  1:30 | Lunch (Offline)
+#  1:30 -  2:30 | Advanced Object Orientation
+#  2:30 -  3:00 | Close
+#  3:00 -  4:00 | Choose Your Own Adventure
+
+### A game of Digi-Murals
+## Draw the color __ without using the color ___.
+##https://jamboard.google.com/d/1OeWkCUy4LZwPSyCoRUtlCnu_bgh84l8-FTOGzg0q06A/edit?usp=sharing
+
+
 ## Intro to Object Orientation
 
 ## Why classes?
 # Let's imagine we were designing a social media website and we're in charge of designing the photos component.
-# Let's chatstorm some features of the photos you would keep track of.
+# Let's chatstorm some properties of the photos you would keep track of.
 # Would you want to create variables for all of these features everytime a new photo was added?
 
 # Object Based Programming let's us define a blueprint that is sort of like a dictionary where we can store information about our object and use it as a blueprint. We also get additional functionality that we can write functions that only work on that blueprint. 
@@ -57,7 +76,7 @@ self.price = this_product_price
 ## Mini-challenge - Let's modify the statement that prints the product was created successfully to use an instance variable.
 
 
-## Chatstorm: What other inforrmation about a product might we want to keep trrack of forr each product we have in our store? ...hopefully a student pitches stock (or amount of the product)
+## Chatstorm: What other information about a product might we want to keep track of for each product we have in our store? ...hopefully a student pitches stock (or amount of the product)
 
 ## Instance Methods
 #So now we'll add another instance variable to keep track of the amount of stock we have for each product.

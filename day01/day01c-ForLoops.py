@@ -1,3 +1,40 @@
+## Control Flow ##
+# So far, when we run our Python programs, every single line of code takes place. At no point has the computer made a decision and done some lines, but not others.
+# Let's imagine you had to write a program that determined what outfit to wear, what kind of information might you use to do that? Chatstorm in the chat window.
+# Great, so I saw someone suggest if the event if formal or not.
+# Let's write some code to ask the user if the event is formal. The prompt will be "Is the event formal?(y/n)" Type but don't send the line of code you would use to save the user's answer to this question as a variable
+## is_formal = input("Is the event formal?(y/n)")
+
+# For now, let's just print back to the user a message depending on their response. We can control the flow of our code by using an if statement.
+
+if is_formal == 'y':
+  print("A formal event, how fun!")
+else:
+  print("Casual clothes is better anyways")
+
+# Take 30 seconds and jot down what you notice and what you wonder. 
+# Let's run this code and try a few different inputs and see what happens. Chatstorm what you did with "input:___ output:_____" so we can see what happens
+
+### Datatype Conversions ###
+#Let's write another file that will check whether a user is old enough to vote. We'll touch a new file callled "ageCheck.py" and we'll copy and paste this coode into it (check slack code snippets)
+age = input("How old are you?")
+if age >= 18:
+  print("You're old enough to vote!")
+else:
+  print("You're not old enough to vote.")
+
+## Once you have this code, go ahead and run it. What do you notice?
+## I see we got an error talking about '>=' not supported between instances of 'str' and 'int' 
+### Error and errror message are an exciting and important part of coding! We learn so much from errors and debugging them.
+## We can get a betterr sense of what's going on if we add a print(age) between lines 1 and lines 2. 
+## It looks like we're trying to compare "18" with 18. How does that connect back to the error message?
+## Python will give an error when we try to compare (>, ==, <) variables of different datypes. 
+## So if we want to get our code to work, we need to convert (fancy term, coerce) our age variablel from a string to an integer.
+## We can do that by reassigning the age variable
+age = int(age)
+
+
+
 ### For Loops ###
 # Computers are really good at repeating the same task over and over again without making any mistakes/typos
 # Let's imagine we were having a competition to see who could type out "print('hello')" as many times as we could without using copy and paste.

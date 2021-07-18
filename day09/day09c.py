@@ -1,5 +1,7 @@
 Afternoon Session
 
-# The afternoon hour is your opportunity to flex your CSS and Bootstrap skills. We will be trying to recreate a webpage from our host site Bank of America
+# The afternoon hour is your opportunity to flex your CSS and Bootstrap skills.
 
-# You'll find the directions here https://github.com/upperlinecode/bootstrap-page-layout-fintech
+# It's also an opportunity to get another at bat with Flask
+
+## Your goal during the 45 minute session is to combine Bootstrap and Flask

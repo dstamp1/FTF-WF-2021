@@ -4,14 +4,24 @@ Morning Session
 # Stretch + Share 
 ## Question: If you could instantly learn how to do something new, what would it be and why?
 
-# Microfeedback - Lots of fun working through Flask. Students shared lots of growth from morning to afternoon session. We wanted to give a shoutout to Jaspreet, Alejandro, Alyssa, Tashfia, Anjali, Patrick, Angel for working on cool stuff during CYOA yesterday
+# Microfeedback - 
+## Got some microfeedback about codealongs and feeling like they don't want to interupt. We want to name that experiencing bugs is a key part of the process and its so helpful to us and your classmates if you do share your bugs as they arise. You're probably not the only one and we can learn so much from these errors.
+## During CYOA Derek will be hosting a Flask review session that is open to all FinTech focus students, so you can get some additional instruction this afternoon too
+
+## Agenda
+ 9:00 -  9:30 | Morning Routine 
+ 9:30 - 11:00 | Intro to Bootstrap + Components
+11:00 - 11:30 | Bio Break + Game
+11:30 - 12:30 | Bootstrap Grid Lab
+12:30 -  1:30 | Lunch (Offline)
+ 1:30 -  2:30 | Bootstrap Mockup Match
+ 2:30 -  3:00 | Close
+ 3:00 -  4:00 | Choose Your Own Adventure
 
 
-### A game...Sean's list of people idea? Sure. I'll facilitate
-#Students pick a person from history, DM you, you read those out loud one time, if you have a guess who submitted the name, send a message in the chat. 
+## Game
+# Let's do a debugger
 
-
-###wink assassin?? Sure, i've never played via zoom you just PM "wink" and whoever you've winked at has to die dramatically + turn off cam...may be morbid for AM play
 
 # Review of Design Manifesto
 ## On Tuesday we started class by talking about examples of good and not so good web design.
@@ -23,6 +33,11 @@ Morning Session
 
 #readbility, ease of focus, color scheme helps
 
+### Oh and for fun, let's see what a "beautiful" website used to look like
+# Apple in 1996 - https://web.archive.org/web/19961023165502/http://www.apple.com/
+# Apple in 2001 - https://web.archive.org/web/20010822231227/http://www.apple.com/
+# Apple in 2010 - https://web.archive.org/web/20100430204732/http://www.apple.com/
+
 ## Bootstrap Code-A-Long
 
 ### Styling a page with CSS can be very tedious and often requires creating many classes and IDs.
@@ -30,7 +45,7 @@ Morning Session
 ### To solve this problem, groups of people collaborate on design frameworks. These frameworks give you a wide range of CSS classes you can use to consistently style your site.
 
 ### We'll start off together this morning seeing how to incorporate Bootstrap into your site.
-### Then we'll look through the Bootstrap documentation to pull out the essential features https://getbootstrap.com/docs/4.5/getting-started/introduction/
+### Then we'll look through the Bootstrap documentation to pull out the essential features https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
 ## Then we'll be able to explore aspects of the bootstrap library and bring it back to the whole group to demo the code.
 
@@ -40,21 +55,26 @@ Morning Session
 
 ## We'll close out the afternoon with a design challenge!
 
-
+### So what even is bootstrap?
+# Let's look at a webpage I put together that does not use any CSS at all.
+# And here's the same HTML file but with bootstrap included
+# Bootstrap really lets us build beautiful websites quickly with design consistency
 
 #### Using Bootstrap in our Website ####
 
 ## To use Bootstrap, we need to include a link to their CSS file & some JavaScript Files.
 
-## Let's mkdir day09 and copy down this starter code: https://github.com/upperlinecode/bootstrap-code-along.git
+## Let's mkdir day09 and copy down this starter code: git clone https://github.com/dvoso/bootstrap-code-along.git
+
+### Using https://getbootstrap.com/docs/5.0/getting-started/introduction/
+### We're using Bootstrap 5.0.2 and when we search for support about how to use it, you need to be on this page and searching in this area.
+
 
 # To add the CSS, we'll add
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 #And then we'll add the JavaScript links
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 ## To view this page in cloudshell, we can right click on the file and select open with -> preview
 
@@ -66,7 +86,7 @@ Morning Session
 
 
 ### To see how we use the Bootstrap classes, we're going to restyle the list using a List Group
-# If we look at the documentation https://getbootstrap.com/docs/4.5/components/list-group/
+# If we look at the documentation https://getbootstrap.com/docs/5.0/components/list-group/
 # We see we need to add some classes
 <ul class="list-group">
   <li class="list-group-item">Cras justo odio</li>
@@ -87,14 +107,15 @@ Morning Session
 
 Alerts & Badges
 Buttons & Button Groups
-Navbar x
+Navbar 
 Progress Bar
-Dropdown x
-Forms x
-Card x
-Modal x
+Dropdown 
+Forms 
+Card
 
-#### 10 minutes in breakoout room with ~1 minute for each group to demo ####
+Modal
+
+#### 10 minutes in breakout room with ~1 minute for each group to demo ####
 
 
 
@@ -150,4 +171,4 @@ Modal x
   </div>
 </div>
 
-## To make this site responsive oon different viewports, we can specify the column sizes at different breakpoints.
+## To make this site responsive on different viewports, we can specify the column sizes at different breakpoints.

@@ -16,11 +16,11 @@
 
 #Making a directory (do this first so students can then cd into it and then make files there in an organized way)
 ## mkdir <directory_name>
-## Let's make a directory called FintechFocus2020
+## Let's make a directory called FintechFocus2021
 
 #Change directory - cd <directory_path>
-## Let's change into this new directory cd FintechFocus2020 and check the new working directory
-## Waterfall - Copy and paste the output of pwd after cd'ing to FintechFocus2020 (if all students have the correct output, we are good to go!)
+## Let's change into this new directory cd FintechFocus2021 and check the new working directory
+## Waterfall - Copy and paste the output of pwd after cd'ing to FintechFocus2021 (if all students have the correct output, we are good to go!)
 
 #Let's make another directory inside of the folder. Each day we will make a new directory for that day and include the day number.
 ## Make a new directory called 'day01' and CD into it. (take 30 seconds)
@@ -42,7 +42,7 @@
 ### To get the lab in your cloudshell, we will use git. We'll talk in more detail later on what git is and how we will use it for our own, original code, but for our purposes right now we will use this workflow. You'll cd into the directory of the day (in this case, day01) and you will run shared code that looks like 'git clone <url>' and then cd into that newly copied directory. Labs will include a readme file with directions and code for you to work with.
 ### During class, labs will take place in breakout rooms in pairs. When you get into the breakout room, decide who will be the driver (does the typing) and who will be the navigator (tells the driver what to type). Both students can contribute ideas on how to solve the challenge at hand. During labs, you will use a slack DM to exchange code back and forth for when you swap driver/navigator. Swapping driver/navigator should happen every 4-5 minutes (about two songs worth). 
 ### In your breakout room, you can click a button to ask for help and one of us will be able to pop into your room. We can also broadcast messages to all of the rooms too. When we're in breakout rooms, use slack to send us messages. 
-### Most of the labs are designed in a way where there will always be more fun to be had in challenges than we will have the time for. The goal for no lab if for you to complete it! But if you do happen to complete a lab, we will always have extra fun additional labs for you to work. 
+### Most of the labs are designed in a way where there will always be more fun to be had in challenges than we will have the time for. The goal for no lab is for you to complete it! But if you do happen to complete a lab, we will always have extra fun additional labs for you to work. 
 
 ### Okay, so here's the code for our first lab 'git clone https://github.com/upperlinecode/command-line-hidden-treasure.git'
 

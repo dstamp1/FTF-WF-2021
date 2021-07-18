@@ -4,21 +4,36 @@
 # Mentor meeting @ 12
 
 # Let's start today with a stretch and share
-## Opening question _____
+## Opening question: If you had to eat one food for the rest of your life, what would you pick?
 ## Students can change the stretch or keep it going
-## And then post a kokology
 
-### Launch into Review Kahoot (try to start this early)
+# Microfeedback: people enjoyed the lab time and working with a partner in breakout rooms, some requested more time to practice topics we covered or opportunities to go over a lab after the fact (could do this during CYOA time)
 
-## Students will go into breakout rooms for ~15 minutes to work on soomething
-# Can doo check in with Anjali and Jaspreet
+### Agenda
 
-# Bio Break starting at 10:05-10:15
+## Review
+# Have students DM in the chat if they would
+1) Like to work on a combined review lab
+2) Work on the Investment Lab <- Focus on Function Writing
+3) Work on the Leap Year Lab  <- Focus on Function Writing
 
-## Let's try out https://www.spyfall.app/gamerules
-# Share the rules before going to break
-# Split into 2 breakout rooms
-### Don't share screens
+git clone https://github.com/upperlinecode/investment-functions.git
+git clone https://github.com/upperlinecode/leap-year-python-functions.git
+
+## Use this time to have a one-on-one with Nancy
+
+### While Derek sets up the breakout rooms play a game of Gartic Telephone with the entire group in the main room.  https://garticphone.com/
+
+
+# Derek prepared a combined review document
+git clone https://github.com/dstamp1/ftf-python-review.git
+git clone https://github.com/upperlinecode/investment-functions.git
+git clone https://github.com/upperlinecode/leap-year-python-functions.git
+
+
+
+# Bio Break starting at 10:15-10:30
+
 
 #### Github Commiting ####
 #note: it's really important we utilizes these 15 minutes strongly to do some of the set up of using Githuv. it will pay dividends

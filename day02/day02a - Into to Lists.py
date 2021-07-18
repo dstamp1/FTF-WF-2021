@@ -1,5 +1,20 @@
+#Opening
+## Show the agenda
+## Stretch and Share
+### Directions - Let's get ourselves ready to code by warming up our bodies with a stretch and share. We'll go around the group and each person will (1) share a stretch or keep a previous stretch going and (2) answer the prompt for the day.
+### What song is stuck in your head?
+## Discuss Microfeedback
+### A great day with almost all enjoyables!
+### Definitely feeling a trend that we took on alot of new material and feeling a bit rushed
+### Request for a reference document to look back on --- Julia is preparing it and its linked in the slack
+### More break! Definitely, we'll chunk up the sessions to include some getting to know you breaks before launching into labs
+### Talking about how to set up the window for zoom and cloudshell
+### Mentioning some of the slack channels
+
+
 ## Intro to Lists ##
 ## mkdir a day02 folder
+## Touch a file called introLists.py
 
 #Let's start out by writing out some of our favorite foods in five separate variables.
 first_favorite_foods = 'Pizza'
@@ -8,7 +23,7 @@ first_favorite_foods = 'Pizza'
 # Chat Waterfall - Type but don't send yet: what was frustrating about this process with one word
 # Ask 2-3 students to expand on their one word
 
-# Code Refactor (rewrite your code to have the same functionality)
+# What is: Code Refactor (rewrite your code to have the same functionality)
 
 # Let's create a *list*
 fav_foods = ["Pizza", "Ice Cream", "tacos", "Tofu Pad Thai", "Chicken and Waffles"]
@@ -43,6 +58,9 @@ name = "kevin"
 
 ### So to access a great list of list methods, google 'w3schools python list methods'
 
+## Mini-break + game
+# Let's go into breakout rooms and do a scavenger hunt challenge. Without leaving the room you're in, find an item you both have accessible.
+
 ## We'll work on the list methods lab now for ~30 minutes
 git clone https://github.com/upperlinecode/list-methods-mini-lab-python.git
 
@@ -61,6 +79,9 @@ for food in fav_foods:
 ## A major pro tip is to have your list variable explicitly be a plural noun and your iteration variable be a connected, singular noun
 
 ## All the things we saw yesterday with loops we can do here too. We can use other control flow, we can use += to do an accumulator, and any other fun idea yoou can think of.
+
+## Mini-break + game
+# Let's go into breakout rooms and do a show and tell challenge. Use the 2 minutes of the breakout room to find an item cost <$5 that is worth much work. We'll do a whip around with the main group before going on to a lab.
 
 ## We'll work on the list iteration lab now
 git clone https://github.com/upperlinecode/list-iteration-mini-lab-python.git
