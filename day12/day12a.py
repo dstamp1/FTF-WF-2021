@@ -1,38 +1,36 @@
 Morning Session
-
-
 ### Morning Routine ###
 
 ## Stretch and Share ##
 # Question....if you could be a contestant on any tv show to win a million dollars, which show do you think you'd do the best?
 
-### Buzzfeed Quizzes ###
+## Microfeedback - Thank you to folks for sharing you were feeling in the panic zone yesterday. APIs is another big item to add to your toolbox. You'll get more opportunities to practice using an API and incorporating an API into your final project is not a requirement. We also got some feedback about wanting more review and practice time with Flask, so we'll incorporate that into today's class as well. We'll try to put together a resource to help you plan out the flow of how you would create a flask app from scratch + the steps to designing a new route. Also want to shoutout again everyone for getting an app to launch on Heroku --- that's an amazing big deal.
 
-https://www.buzzfeed.com/quizparty
+### Game -  skribbl.io
+Three rooms, two rounds, 60 seconds
+https://skribbl.io/
 
-<<<<<<< HEAD
+### Agenda
+ 9:00 -  9:30 | Morning Routine 
+ 9:30 - 11:00 | Into to Databases w/ MongoDB
+11:00 - 11:30 | Bio Break + Game
+11:30 - 12:30 | Setting up your MongoDB
+12:30 -  1:30 | Lunch (Offline)
+ 1:30 -  2:30 | MongoDB Worktime w/ Flask
+ 2:30 -  3:00 | Close
+ 3:00 -  4:00 | Choose Your Own Adventure
 
-# Each group will share out 1 of the quizzes they took and what was fun about it.
-
-## You might think about how buzzfeed is able to make these quizzes...both the standalone quiz plus their new feature of quiz party.
-
-
-## Microfeedback - Students like seeing the progression from the command line jeopardy game through a version of their game on flask. Definitely a challenging/frustrating day since APIs was new for most students and it had been a while since we saw flask. Thank you to everyone for taking on the challenge and perserving with a minimum level of direct teaching from us. All of you were able to create something to be proud of in such a short amount of time and you are all in a great place to make something incredible during project mode.
-=======
-## Breakout rooms of 4. Select a quiz and share the party link. Take the quiz and then look at the results.
->>>>>>> 99905c65b2ef0d73b8833af9ecd945ffc576ce1c
 
 ######## Why do we even need a database #######
 
 # Let's say we wanted to build a site where we could post community events and important dates. I want to site to be able to show events + add events.
 # I coded together this app last night: https://community-board-dstamp.herokuapp.com/
 
-## Take 2 minutes to explore my site (it only has two pages) and add an event
+## Take 2 minutes to explore my site (it only has two pages) and add an event. Eveyone will add at least one event to the community board.
 
+### At this point, you probably noticed that the events we added individually aren't showing up on everyone elses page even though we all visited the same website.
 
-### At this point, you probabl noticed that the events we added individually aren't showing up on everyone elses page even though we all visited the same website.
-
-## If we look at the code, we see that the original evennts list is hard coded.
+## If we look at the code, we see that the original events list is hard coded.
 
 ### To have a site where multiple users can access and add data for other users to interact with, we need a centralized way to store data. Databases give us the way to do that. We will learn how to user MongoDB.
 
@@ -52,8 +50,8 @@ https://www.buzzfeed.com/quizparty
 # in our cloudshell, let's
 mkdir day12 && cd day12
 
-## Stocks Lab
-git clone https://github.com/upperlinecode/stock-query-mongodb.git
+## Stocks Lab -- I made a clearer version of this
+git clone https://github.com/dstamp1/stock-query-mongodb-v2021.git
 
 
 ## MongoDB isn't written in Python and it has documentation on how to send it queries. Pymongo is a python module that will do the work to turn Python code into code Mongo will understand.
@@ -84,16 +82,6 @@ collection.find({}).sort({ field: value })
 collection.find({}).sort([['field1',1],['field2',-1]])
 
 # You and your partner will work through the stocks lab
-#2 - Anjali, Charlotte
-#3 - Tashfia, Taylor
-#4 - Jaspreet, Kevin
-#5 - Alyssa, Patrick
-#6 - Alejandro, Angel, Prachi
-#8 - Eileen, Farhan
-#13 - Eric, Leo
-
-
-
 
 ## Sign up for MongoDB + create your first database connection
 # To get started using MongoDB as a database, you'll want to sign up for an Atlas (free) account at mongodb.com. The sign up process is a bit lengthy, but it involves:

@@ -14,10 +14,15 @@ Mid-Morning Session
 
 ## First, let's look at this new file called "base.html". This file serves as a template that our other files will inherit. It includes two blocks: title and content. To fill in these blocks, we use the same syntax and then fill it in. You can see that in our index.html file. You'll also notice that our base.html includes Bootstrap.
 
+## Let's demo it with the index.html
+
+## can update to Bootstrap 5 in the base to show the value of templating
+### I have the updated code we can drop in
+
 ## Second, let's look at the session variable. To use the session variable, we need to import it from flask and give the app a configuration attribute called secret_key. The flask app will use the secret_key to store information specific to the individual user accessing your website in a crypographically safe form. We can add to, modify, and remove that information just let it's a dictionary. We do that with session[key]  where key is a string that we set. This information is stored in the end user's browser and is available to our flask app business logic. We also can display it on the page.
 
-
-### In your breakout rooms, 1) write a route called '/random' that display a random jeopardy clue using the Jservice API. As a stretch, begin to style it using a bootstrap card.
+# For time, let's do this net thing together 
+###  1) write a route called '/random' that displays a random jeopardy clue using the Jservice API. As a stretch, begin to style it using a bootstrap card.
 
 
 #### So now we have an app that we want to deploy for others to access. Right now, we need to access via Cloudshelll in a  "local" way. Pushing to a service like heroku lets us send it to our friends and family!
