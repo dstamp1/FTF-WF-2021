@@ -1,34 +1,19 @@
 #Morning Session
 #Stretch and share
-#Question:
+#Question: If you could be a character in a tv show or movie, which show or movie would you want to be in?
 
-##Game:
+##Game: Debugger
 
-#Microfeedback:
+#Microfeedback: yesterday was a solid working session with partners. It is nice to talk things out and troubleshoot with others. There might be some bugs but you are working through them. Please continue to give us actionable feedback--even though it's the last week we still want to impr
 
 
-##Brief Agenda
-# Heroku Deployment
-# Work time
-# Collaboration with partners
-# Lunch
-# Work time + Project submission form
-# Guidelines
-# Should take ~5 minutes to present 
-# Students can choose a theme/design for their slide deck that reflects their project 
-# Each person in the group should have an equal amount of time to present 
-# If there is time, their might be 1-2 audience questions for the students to answer (facilitated by Bernadette)
-# Slide deck should include: 
-# Demo: Show the app and how to use it 
-# The story of their project (What are you trying to solve and who are you trying to help? What motivated this idea?)
-# What are you most proud of? (feel free to screenshots part of your code or highlight particular app) 
-# What would you do if you have more time? What’s next for you? 
-# presentations 
-https://docs.google.com/presentation/d/18uFmld7HAVlmNy9XDWgRhsNisI_Y4Z925lFJ3nkPLCk/copy
+##Agenda
+# Work time during the morning session
+## Derek will go through how to do use sign up and log in
+## Lots of game breaks
 
-# submission - Share with students tomorrow
-# https://docs.google.com/forms/d/e/1FAIpQLSdfNEEcCmIbGara-XccIlMY8UpvYGjkgNpuEgrG7CDmX3UraQ/viewform
+## During mid-morning sessions, all groups will go through the heroku deployment workflow
 
-# End at 2:15PM for closing circle, Bernadette@2:30PM for graduation details
 
-#####
+#Reminder
+### Remind  students to have family members RSVP to graduation (deadline is Wednesday at 11:59 PM ET): https://fintechfocusgraduation21.eventbrite.com 

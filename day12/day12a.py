@@ -71,16 +71,6 @@ sudo pip3 install dnspython
 # Chat waterfall: Type but don't send yet. What kind of verbs might you do to a collection of documents?
 # find, sort, filter, limit
 
-# So lets say we want to sort by a particular field.
-## IF we loook at the MongoDB documentation:
-https://docs.mongodb.com/manual/reference/method/cursor.sort/index.html
-## We see that we would do
-collection.find({}).sort({ field: value })
-# where value = 1 for ascending and -1 for descending.
-
-#But if we type this in, it won't work! Python requires the key to be a string and it is a list of lists
-collection.find({}).sort([['field1',1],['field2',-1]])
-
 # You and your partner will work through the stocks lab
 
 ## Sign up for MongoDB + create your first database connection

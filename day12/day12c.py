@@ -9,4 +9,4 @@ git clone https://github.com/upperlinecode/mongodb-music-lab.git
 git clone https://github.com/dstamp1/flask-and-mongodb-code-a-long.git
 
 
-## A dedicated Flask Review Wessions
+## A dedicated Flask Review Sessions

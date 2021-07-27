@@ -1,13 +1,14 @@
 Mid-Morning Session
 
 #### finish setting up the collection on MongoDB
-#Name the database 'events'
+#Name the database 'test and the collection' 'events'
 
 
 ### How to connect a Flask App to a MongoDB database
 
-## Let's get a copy of the community board app we saw this morning
-git clone https://github.com/upperlinecode/stock-query-mongodb.git
+## Let's make a template of the community board app from this morning
+https://github.com/dstamp1/flask-and-mongodb-code-a-long
+
 
 ## To connect your database,
 from flask_pymongo import PyMongo
@@ -42,6 +43,8 @@ MONGO_DBNAME =
 MONGO_DB_USERNAME =
 MONGO_DB_PASSWORD =
 
+## right now, this route requires us to hard code the event to add it.
+# Let's connect it to the form.
 
 ### Now we want to add new documents to our database
 events_db = mongo.db.events
@@ -51,8 +54,7 @@ event = {
 }
 events_db.insert(event)
 
-## right now, this route requires us to hard code the event to add it.
-# Let's connect it to the form.
-
+### Have students go to breakout rooms on how they would view all of the events in the route
+events = events_db.find({})
 
 ## Playtime -- Continue to work on this flask app and add some styling, add additional fields to the form about the event, etc.

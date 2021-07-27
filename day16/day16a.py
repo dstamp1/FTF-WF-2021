@@ -2,16 +2,12 @@
 ### Morning Routine --- 
 
 ## Stretch and Share ## 
-# Question: 
+# Question: If you had a time machine, would go back in time or into the future? When would you go to?
 
-
-## Game ##
-# continue sushi selector? started Thurs, but progress not saved...
-https://flukeout.github.io/
 
 ## Microfeedback ##
-# wanted more time to work (understandable), excited by our projects, review went well and we like hearing from our peers
-
+# People were really excited about working on their projects
+# 
 #### Agenda for Today ####
 
 ## Today will be a full day of project mode.
